@@ -1,0 +1,101 @@
+/*HEADER--------------------------------------*/
+
+.header {
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #e9eaeb;
+  margin-bottom: 6px;
+}
+
+.buyVulk {
+  background-color: #7703fc;
+  color: aliceblue;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 100px;
+}
+
+.logo {
+  height: 50px; /*Tá acontecendo um bug ao trocar por vh, então por isso não mexi*/
+  width: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  width: 50vh;
+  margin: 5vh;
+  margin-left: 10%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #7703fc;
+}
+a {
+  color: #313b59;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.details {
+  border-bottom: 16px solid #f2f3f7;
+  margin-bottom: 6px;
+}
+
+/*CONTAINER--------------------------------------------*/
+.container {
+  width: 80vh;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.textWithButton {
+  width: 50vh;
+}
+.rapper {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1txt {
+  font-size: 45px;
+}
+.ptxt {
+  font-size: 20px;
+}
+
+.buttonsHero {
+  display: flex;
+  width: 23vh;
+  margin-top: 8%;
+  justify-content: space-between;
+}
+.demo {
+  background-color: #ffffff;
+  color: #282c38;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  height: 40px;
+  width: 100px;
+}
+
+/*FOOTER--------------------------------------------*/
+.Footer {
+  display: flex;
+  justify-content: center;
+}
