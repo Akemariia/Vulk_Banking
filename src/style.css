@@ -60,9 +60,8 @@ button:hover {
 /*CONTAINER--------------------------------------------*/
 .container {
   width: 80vh;
-  flex-direction: row;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .textWithButton {
   width: 50vh;
