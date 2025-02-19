@@ -14,15 +14,15 @@ function Navbar() {
         <div className="logo">
           <img src={logo} alt="" style={estiloImagem} />
           <div className="navbar">
-            <a>Product</a>
-            <a>Pricing</a>
-            <a>Company</a>
-            <a>Ressources</a>
+            <a className="rubik-medium">Product</a>
+            <a className="rubik-medium">Pricing</a>
+            <a className="rubik-medium">Company</a>
+            <a className="rubik-medium">Ressources</a>
           </div>
         </div>
 
         <div>
-          <button className="buyVulk">Buy Vulk</button>
+          <button className="buyVulk rubik-medium">Buy Vulk</button>
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /*HEADER--------------------------------------*/
 
 .header {
@@ -19,7 +21,7 @@
 }
 
 .logo {
-  height: 50px; /*Tá acontecendo um bug ao trocar por vh, então por isso não mexi*/
+  height: 5vh;
   width: 50vh;
   display: flex;
   align-items: center;
@@ -98,4 +100,28 @@ button:hover {
 .Footer {
   display: flex;
   justify-content: center;
+}
+
+/*FONTES---------------------------------------------*/
+
+
+.rubik-light {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.rubik-bold {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.rubik-medium {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
